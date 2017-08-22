@@ -7,7 +7,7 @@ module.exports = function(list){
 
     if(list[i] > list[i+1]){
       list[i] = next;
-      list[list.length - 1] = current
+      list[i + 1] = current
     }
 
   }
